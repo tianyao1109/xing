@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+	<div id="app">
+		
+	</div>
+	<div id="apps">
+		
+	</div>
+	<script src="index.js"></script>
+	<script>
+		var a = document.documentElement.clientWidth;
+		var b = window.innerWidth;
+		var c = document.getElementById("app")
+		var d = document.getElementById("apps")
+		c.innerHTML= "布局视口" + a;
+		d.innerHTML= "视觉适口"+ b;
+	</script>
+</body>
+</html>
